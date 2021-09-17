@@ -1,0 +1,7 @@
+<a href="{{ 'admin' }}">admin</a>
+{% for x in project %}
+
+<h1>{{ x.text }}</h1>
+<img src="{{ x.image.url }}">
+<p>{{ x.test }}</p>
+{% endfor %}
